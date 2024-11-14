@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QBDev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/logo.svg" type="image/png">
+</head>
+<body>
+    <!-- Header Section with Logo and Navbar -->
+    <header class="header">
+        <div class="logo">
+            <img src="Images/QBDev.png" alt="QBDev Logo">
+        </div>
+    
+        <nav class="navbar">
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h2>Welcome to QBDev</h2>
+        <p>Dependable Web Development Partner. Developing Dreams, One Line at a Time. Bringing Your Vision to Life.
+        </p>
+    </div>
+
+    <!-- Services Section -->
+<div class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+        <div class="service-card">
+            <i class="fa fa-code"></i>
+            <h3>Web Development</h3>
+            <p>We build responsive and modern websites tailored to your business needs.</p>
+        </div>
+        <div class="service-card">
+            <i class="fa fa-paint-brush"></i>
+            <h3>UI/UX Design</h3>
+            <p>Creating user-friendly designs that focus on user experience and engagement.</p>
+        </div>
+        <div class="service-card">
+            <i class="fa fa-search"></i>
+            <h3>SEO Optimization</h3>
+            <p>Helping your website rank higher on search engines and drive organic traffic.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Why Choose Us Section -->
+<div class="why-choose-us">
+    <h2>Why Choose QBDev?</h2>
+    <ul>
+        <li><strong>Fresh Perspectives:</strong> Bringing innovative ideas to your projects with a modern approach.</li>
+        <li><strong>Passion for Coding:</strong> A dedicated developer who is committed to delivering high-quality work.</li>
+        <li><strong>Attention to Detail:</strong> Ensuring every aspect of your project is polished and professional.</li>
+        <li><strong>Responsive Communication:</strong> Quick to respond and willing to collaborate closely with clients.</li>
+        <li><strong>Continuous Learning:</strong> Always improving skills to provide the best solutions for your needs.</li>
+    </ul>
+</div>
+
+
+<!-- Testimonials Section -->
+<div class="testimonials">
+    <h2>What People Are Saying</h2>
+    <div class="testimonial-slider">
+        <div class="testimonial">
+            <p>"I am amazed at how quickly QBDev was able to understand my needs and deliver a great website mockup."</p>
+            <span>- Future Client</span>
+        </div>
+        <div class="testimonial">
+            <p>"The dedication and enthusiasm for coding are evident. I look forward to seeing QBDev grow!"</p>
+            <span>- Peer</span>
+        </div>
+        <div class="testimonial">
+            <p>"I appreciate the responsiveness and willingness to adapt during the project!"</p>
+            <span>- Peer</span>
+        </div>
+    </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <p>Have a project in mind? Let's work together!</p>
+    <a href="contact.html" class="cta-btn">Contact Us</a>
+
+</div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>QBDev</h3>
+                <p>Your reliable web development partner, delivering quality solutions tailored to your needs.</p>
+            </div>
+            <div class="footer-middle">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:qhamanibaushana2@gmailcom">qhamanibaushana2@gmailcom</a></p>
+                <p>Phone: <a href="tel:+27643417449">+27643417449</a></p>
+            </div>
+            <div class="footer-right">
+                <h4>Follow Us</h4>
+                <ul class="socials">
+                    <li><a href="https://x.com/TheRealQBDev?t=F5A29QtGNsfQGOOECMxuKQ&s=09" target="_blank">Twitter</a></li>
+                    <li><a href="https://youtube.com/@therealqbdev?si=DS8QjX0mj4gwF1lS" target="_blank">YouTube</a></li>
+                    <li><a href="www.linkedin.com/in/qhamani-baushana-6263a62b1" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/QBaushana" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 QBDev. All rights reserved.</p>
+        </div>
+    </footer>    
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Toggle the active class to show/hide the menu
+        });
+    </script>
+    
+</body>
+</html>

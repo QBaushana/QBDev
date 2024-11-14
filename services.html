@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - QBDev</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <!-- Header Section with Logo and Navbar -->
+    <header class="header">
+        <div class="logo">
+            <img src="Images/QBDev.png" alt="QBDev Logo">
+        </div>
+    
+        <nav class="navbar">
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>We provide a range of web development services to help your business grow. Below are the services we offer, along with their pricing.</p>
+
+            <div class="services-content">
+                <!-- Service 1 -->
+                <div class="service-item">
+                    <h2>1. Basic Website Development</h2>
+                    <p>Get a professional and responsive 3-5 page website for your business.</p>
+                    <p><strong>Price:</strong> $200 - $300</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-item">
+                    <h2>2. Custom Website Development</h2>
+                    <p>Need something unique? We create custom websites based on your specific requirements.</p>
+                    <p><strong>Price:</strong> $400 - $600</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-item">
+                    <h2>3. E-commerce Website</h2>
+                    <p>Want to sell products online? We develop secure and efficient e-commerce solutions.</p>
+                    <p><strong>Price:</strong> $700 - $1000</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-item">
+                    <h2>4. Website Maintenance</h2>
+                    <p>Already have a website? We offer ongoing support and maintenance services to ensure your site is always up-to-date and running smoothly.</p>
+                    <p><strong>Price:</strong> $50/month</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-item">
+                    <h2>5. Website Performance Optimization</h2>
+                    <p>Enhance your website's speed, performance, and SEO to rank higher in search results.</p>
+                    <p><strong>Price:</strong> $100 - $200</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>QBDev</h3>
+                <p>Your reliable web development partner, delivering quality solutions tailored to your needs.</p>
+            </div>
+            <div class="footer-middle">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:qhamanibaushana2@gmailcom">qhamanibaushana2@gmailcom</a></p>
+                <p>Phone: <a href="tel:+27643417449">+27643417449</a></p>
+            </div>
+            <div class="footer-right">
+                <h4>Follow Us</h4>
+                <ul class="socials">
+                    <li><a href="https://x.com/TheRealQBDev?t=F5A29QtGNsfQGOOECMxuKQ&s=09" target="_blank">Twitter</a></li>
+                    <li><a href="https://youtube.com/@therealqbdev?si=DS8QjX0mj4gwF1lS" target="_blank">YouTube</a></li>
+                    <li><a href="www.linkedin.com/in/qhamani-baushana-6263a62b1" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/QBaushana" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 QBDev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Toggle the active class to show/hide the menu
+        });
+    </script>
+    
+</body>
+</html>

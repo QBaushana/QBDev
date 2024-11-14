@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - QBDev</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!-- Header Section with Logo and Navbar -->
+    <header class="header">
+        <div class="logo">
+            <img src="Images/QBDev.png" alt="QBDev Logo">
+        </div>
+    
+        <nav class="navbar">
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Main About Section -->
+    <section class="about">
+        <div class="container">
+            <h1>About QBDev</h1>
+            <p>Welcome to QBDev, your trusted partner for innovative and reliable web development solutions. Founded by Qhamani Baushana, QBDev is dedicated to helping businesses and individuals create impactful digital experiences through custom-designed websites and applications.</p>
+
+            <h2>Who We Are</h2>
+            <img src="Images/QBDev Youtube Banner 2.png">
+            <p>QBDev is a web development agency specializing in creating modern, responsive, and user-friendly websites. Our mission is to provide high-quality digital solutions that help our clients succeed online.</p>
+
+            <h2>Our Vision</h2>
+            <img src="Images/luke-peters-B6JINerWMz0-unsplash.jpg">
+            <p>Our vision is to empower businesses and individuals by providing efficient, scalable, and cutting-edge web development services. We are passionate about technology and committed to delivering the best outcomes for every project.</p>
+
+            <h2>Our Expertise</h2>
+            <img src="Images/create-responsive-websites-in-html-css-javascript-reactjs-nodejs.png">
+            <p>With expertise in front-end and back-end development, QBDev offers full-stack development services using technologies like HTML, CSS, JavaScript, React, Node.js, and more. We strive to create seamless, engaging user experiences that are both functional and aesthetically pleasing.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>QBDev</h3>
+                <p>Your reliable web development partner, delivering quality solutions tailored to your needs.</p>
+            </div>
+            <div class="footer-middle">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:qhamanibaushana2@gmailcom">qhamanibaushana2@gmailcom</a></p>
+                <p>Phone: <a href="tel:+27643417449">+27643417449</a></p>
+            </div>
+            <div class="footer-right">
+                <h4>Follow Us</h4>
+                <ul class="socials">
+                    <li><a href="https://x.com/TheRealQBDev?t=F5A29QtGNsfQGOOECMxuKQ&s=09" target="_blank">Twitter</a></li>
+                    <li><a href="https://youtube.com/@therealqbdev?si=DS8QjX0mj4gwF1lS" target="_blank">YouTube</a></li>
+                    <li><a href="www.linkedin.com/in/qhamani-baushana-6263a62b1" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/QBaushana" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 QBDev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Toggle the active class to show/hide the menu
+        });
+    </script>
+    
+</body>
+</html>

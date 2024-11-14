@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - QBDev</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Header Section with Logo and Navbar -->
+    <header class="header">
+        <div class="logo">
+            <img src="Images/QBDev.png" alt="QBDev Logo">
+        </div>
+    
+        <nav class="navbar">
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+   <!-- Contact Form -->
+   <div class="contact-form">
+    <form action="https://formspree.io/f/meojbwyo" method="POST">
+        <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Your Message *</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p><strong>Email:</strong> <a href="mailto:qhamanibaushana2@gmail.com">qhamanibaushana2@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+27643417449">+27 64 341 7449</a></p>
+                    <h3>Follow Us</h3>
+                    <ul class="socials">
+                        <li><a href="https://twitter.com/TheRealQBDev" target="_blank">Twitter</a></li>
+                        <li><a href="https://youtube.com/@therealqbdev" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.linkedin.com/in/qhamani-baushana-6263a62b1" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/QBaushana" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <!-- (Your existing footer content) -->
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Toggle the active class to show/hide the menu
+        });
+    </script>
+    
+</body>
+</html>
